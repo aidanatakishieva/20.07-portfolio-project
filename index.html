@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <meta name="keywords" content="Python,Java,Javascript" />
+    <meta name="description" content="Atakishieva" />
+    <!-- Fonts Google  -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/main.css">
+    <!-- Tablet -->
+    <link rel="stylesheet" media="(max-width:768px)" href="css/tablet.css">
+    <link rel="stylesheet" media="(max-width:500px)" href="css/mobile.css">
+</head>
+
+<body>
+    <header class="bg-dark-blue">
+        <div class="container">
+            <nav id="navbar">
+                <h1 class="heading-small">Atakishieva Aidan</h1>
+                <ul>
+                    <li><a href="#home"> Home</a></li>
+                    <li><a href="#training"> Training</a></li>
+                    <li><a href="#courses"> Courses</a></li>
+                    <li><a href="#contact"> Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="home">
+        <img src="images/IMG_8300.jpg" alt="Aidan">
+        <div class="name text-center">
+            <h2 class="heading-big">Atakishieva Aidan</h2>
+            <p>Frontend Developer,Electronics,telecommunication and rediotechnique engineer</p>
+        </div>
+        <a href="#courses" class="btn btn-primary ">Go to Courses</a>
+    </section>
+    <section id="training" class="bg-dark-blue">
+        <h3 class="text-center heading-medium">Training</h3>
+        <div class="items">
+            <article class="item">
+                <i class="fa fa-pencil-alt"></i>
+                <h3>Classroom Trainings </h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero facere quas veniam eius officia. Eius
+                    sit obcaecati alias perspiciatis aspernatur suscipit tempore culpa voluptates, maxime, esse ipsam
+                    fugiat provident aperiam.
+                </p>
+            </article>
+            <article class="item">
+                <i class="fa fa-pencil-alt"></i>
+                <h3>Online Content </h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero facere quas veniam eius officia. Eius
+                    sit obcaecati alias perspiciatis aspernatur suscipit tempore culpa voluptates, maxime, esse ipsam
+                    fugiat provident aperiam.
+                </p>
+            </article>
+            <article class="item">
+                <i class="fa fa-pencil-alt"></i>
+                <h3>Conferences </h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero facere quas veniam eius officia. Eius
+                    sit obcaecati alias perspiciatis aspernatur suscipit tempore culpa voluptates, maxime, esse ipsam
+                    fugiat provident aperiam.
+                </p>
+            </article>
+
+
+        </div>
+    </section>
+    <section id="courses">
+        <h3 class="text-center heading-medium"> Courses</h3>
+
+        <div class="container">
+            <div class="courses">
+                <!-- Course 1 -->
+                <div class="course">
+                    <div class="course-image">
+                        <img src="images/python.jpg" alt="Python">
+                        <span>90% sale</span>
+                    </div>
+                    <div class="course-info">
+                        <div class="title">
+                            (40+ hours) Complete Python Course
+                        </div>
+                        <div class="description">
+                            (40+ hours) Complete Python Course | From Zero level learn Python
+                        </div>
+                        <div class="instructor"> Aliyeva Sona | Frontend Developer</div>
+                        <div class="rating"> 4.6 | (19900 rate)</div>
+                    </div>
+                </div>
+                <!-- Course 2 -->
+                <div class="course">
+                    <div class="course-image">
+                        <img src="images/java.jpg" alt="Java">
+                        <span>90% sale</span>
+                    </div>
+                    <div class="course-info">
+                        <div class="title">
+                            Complete Java Course
+                        </div>
+                        <div class="description">
+                            Complete Java Course | From Zero level learn Java
+                        </div>
+                        <div class="instructor"> Ahmadov Fuad | Backend Developer</div>
+                        <div class="rating"> 4.8 | (7800 rate)</div>
+                    </div>
+                </div>
+                <!-- Course 3 -->
+                <div class="course">
+                    <div class="course-image">
+                        <img src="images/javascript.jpg" alt="Javascript">
+                        <span>90% sale</span>
+                    </div>
+                    <div class="course-info">
+                        <div class="title">
+                            Complete Javascript Course
+                        </div>
+                        <div class="description">
+                            Complete Javascript Course | From Zero level learn Javascript
+                        </div>
+                        <div class="instructor"> Hasanov Rashad | Full Stack Developer </div>
+                        <div class="rating"> 3.6 | (5000 rate)</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact" class="bg-dark-blue">
+        <div class="contact-form">
+            <form>
+                <h4 class="text-center heading-medium"> Contact me</h4>
+
+                <div class="form-group">
+                    <label for="name"> Name</label>
+                    <input 
+                    type="text"
+                    class="form-control"
+                    name="name"
+                    id="name"
+                    placeholder="Name"
+                    />
+                </div>
+
+                <div class="form-group">
+                    <label for="email"> Email</label>
+                    <input type="text" class="form-control" name="email" id="email" placeholder="email"/>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" class="form-control" rows="5"
+                        placeholder="Your message..."></textarea> </div>
+                <button type="submit" class="btn btn-block">Send</button>
+            </form>
+
+            <ul>
+                <li>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                </li>
+                <li>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </li>
+                <li>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>
